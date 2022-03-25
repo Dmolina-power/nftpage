@@ -32,11 +32,17 @@ const iconStyle = {
   },
 };
 
+const rightLink = {
+  fontSize: 16,
+  color: "common.white",
+  ml: 3,
+};
+
 export default function AppFooter() {
   return (
     <Typography
       component="footer"
-      sx={{ display: "flex", bgcolor: "secondary.light" }}
+      sx={{ display: "flex", bgcolor: "secondary.dark" }}
     >
       <Container sx={{ my: 8, display: "flex" }}>
         <Grid container spacing={5}>
@@ -101,6 +107,17 @@ export default function AppFooter() {
               </Link>
             </Typography>
           </Grid>
+          <Box sx={{ flex: 1, display: "flex", justifyContent: "flex-end" }}>
+            <Link
+              color="inherit"
+              variant="h6"
+              underline="none"
+              href="#"
+              sx={rightLink}
+            >
+              {"Top"}
+            </Link>
+          </Box>
         </Grid>
       </Container>
     </Typography>

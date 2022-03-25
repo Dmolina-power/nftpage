@@ -6,7 +6,7 @@ import Container from "@mui/material/Container";
 //Components
 import Typography from "../Components/Typography";
 
-function ProductSmokingHero() {
+function NftHero2() {
   return (
     <Container
       component="section"
@@ -43,4 +43,4 @@ function ProductSmokingHero() {
   );
 }
 
-export default ProductSmokingHero;
+export default NftHero2;

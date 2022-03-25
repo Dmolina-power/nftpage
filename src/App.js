@@ -1,27 +1,14 @@
 import * as React from "react";
-//Views
-import AppAppBar from "./Views/AppAppBar";
-import AppFooter from "./Views/AppFooter";
-import ProductHero from "./Views/ProductHero";
-import ProductValues from "./Views/ProductValues";
-import ProductCategories from "./Views/ProductCategories";
-import ProductHowItWorks from "./Views/ProductHowItWorks";
-import ProductSmokingHero from "./Views/ProductSmokingHero";
-// Components
-import withRoot from "./Components/withRoot";
+import Home from "./Pages/Home";
+import Xxx from "./Pages/XXX";
 
 function App() {
   return (
     <React.Fragment>
-      <AppAppBar />
-      <ProductHero />
-      <ProductValues />
-      <ProductCategories />
-      <ProductHowItWorks />
-      <ProductSmokingHero />
-      <AppFooter />
+      {/* <Home /> */}
+      <Xxx />
     </React.Fragment>
   );
 }
 
-export default withRoot(App);
+export default App;

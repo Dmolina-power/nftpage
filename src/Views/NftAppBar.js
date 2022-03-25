@@ -12,7 +12,7 @@ const rightLink = {
   ml: 3,
 };
 
-function AppAppBar() {
+function NftAppBar() {
   return (
     <div>
       <AppBar position="fixed">
@@ -45,4 +45,4 @@ function AppAppBar() {
   );
 }
 
-export default AppAppBar;
+export default NftAppBar;

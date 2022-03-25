@@ -13,7 +13,7 @@ const item = {
   px: 5,
 };
 
-function ProductValues() {
+function NftValues() {
   return (
     <Box
       component="section"
@@ -72,4 +72,4 @@ function ProductValues() {
   );
 }
 
-export default ProductValues;
+export default NftValues;
