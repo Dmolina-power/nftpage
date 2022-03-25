@@ -5,6 +5,8 @@ import AppFooter from "./Views/AppFooter";
 import ProductHero from "./Views/ProductHero";
 import ProductValues from "./Views/ProductValues";
 import ProductCategories from "./Views/ProductCategories";
+import ProductHowItWorks from "./Views/ProductHowItWorks";
+import ProductSmokingHero from "./Views/ProductSmokingHero";
 // Components
 import withRoot from "./Components/withRoot";
 
@@ -15,6 +17,8 @@ function App() {
       <ProductHero />
       <ProductValues />
       <ProductCategories />
+      <ProductHowItWorks />
+      <ProductSmokingHero />
       <AppFooter />
     </React.Fragment>
   );
