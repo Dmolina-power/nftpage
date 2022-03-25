@@ -3,6 +3,7 @@ import * as React from "react";
 import AppAppBar from "./Views/AppAppBar";
 import AppFooter from "./Views/AppFooter";
 import ProductHero from "./Views/ProductHero";
+import ProductValues from "./Views/ProductValues";
 // Components
 import withRoot from "./Components/withRoot";
 
@@ -11,6 +12,7 @@ function App() {
     <React.Fragment>
       <AppAppBar />
       <ProductHero />
+      <ProductValues />
       <AppFooter />
     </React.Fragment>
   );
