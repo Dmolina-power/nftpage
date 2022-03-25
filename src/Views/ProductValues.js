@@ -29,7 +29,7 @@ function ProductValues() {
         <Grid container spacing={5}>
           <Grid item xs={12} md={4}>
             <Box sx={item}>
-              <Box component="img" src="#" alt="#" sx={{ height: 55 }} />
+              <Box component="img" src="/static/img/art.png" alt="nftart" sx={{ height: 55 }} />
               <Typography variant="h6" sx={{ my: 5 }}>
                 Top Quality NFT Designs
               </Typography>
@@ -42,7 +42,7 @@ function ProductValues() {
           </Grid>
           <Grid item xs={12} md={4}>
             <Box sx={item}>
-              <Box component="img" src="#" alt="#" sx={{ height: 55 }} />
+              <Box component="img" src="/static/img/erotic.png" alt="erotic" sx={{ height: 55 }} />
               <Typography variant="h6" sx={{ my: 5 }}>
                 XXX Section
               </Typography>
@@ -55,7 +55,7 @@ function ProductValues() {
           </Grid>
           <Grid item xs={12} md={4}>
             <Box sx={item}>
-              <Box component="img" src="#" alt="#" sx={{ height: 55 }} />
+              <Box component="img" src="/static/img/opensea2.png" alt="opensea" sx={{ height: 55 }} />
               <Typography variant="h6" sx={{ my: 5 }}>
                 We are on OpenSea
               </Typography>
